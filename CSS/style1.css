@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    text-transform: capitalize; 
+    font-family: system-ui;
+}
+.div1{
+    padding: 10px;
+    font-size: 15px;
+    background-color: rgb(88, 83, 83);
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize; 
+    margin-top: -33px;
+    display: flex;
+    justify-content: flex-start;
+ }
+.div1 a{
+    text-decoration: none;
+    color: white;
+}
+.div1 a:hover{
+    text-decoration: underline;
+    color: gray;
+}
+.div1 img {
+    margin-top: 25px;
+    margin-right: 10px;
+}
+.div1 p{
+    align-self: center;
+    margin-top: 35px;;
+}
+.div1 .div10{
+    display: flex;
+    justify-self: flex-end;
+    margin-left: 600px;
+}
+.div10 div{
+    align-self: center;
+    margin-top: 20px;
+    margin-left: 30px;
+    color:white
+    
+}
+
+.div2{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: white;
+}
+.div3 p{
+    justify-self: center;
+    font-family: system-ui;
+    text-align: center;
+
+}
+.div3{
+     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.div3 h1{
+    justify-self: center;
+    margin-left: 50px;
+}
+.div2 img{
+    margin: 50px;
+        border:5px solid bisque
+
+}
+.div4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: bisque;
+}
+.div4 .div5{
+    display: flex;
+    justify-content: center;
+}
+.div5 div{
+    justify-items: flex-start;
+    align-self: flex-start;
+}
+.div5 div p{
+    font-weight: bold;
+    margin-left: 15px;
+}
+.div4 h1{
+    margin-left: 10px;
+}
+
+
+.div6{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: bisque;
+}
+.div6 .div7{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.div7 div{
+    justify-items: flex-start;
+    align-self: flex-start;
+}
+.div7 div p{
+    margin-left: 15px;
+}
+.div6 h1{
+    margin-left: 10px;
+}

@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    text-transform: capitalize; 
+    font-family: system-ui;
+}
+.div1{
+    padding: 10px;
+    font-size: 15px;
+    background-color: rgb(88, 83, 83);
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize; 
+    margin-top: -33px;
+    display: flex;
+    justify-content: flex-start;
+ }
+.div1 a{
+    text-decoration: none;
+    color: white;
+}
+.div1 a:hover{
+    text-decoration: underline;
+    color: gray;
+}
+.div1 img {
+    margin-top: 25px;
+    margin-right: 10px;
+}
+.div1 p{
+    align-self: center;
+    margin-top: 35px;;
+}
+.div1 .div10{
+    display: flex;
+    justify-self: flex-end;
+    margin-left: 600px;
+}
+.div10 div{
+    align-self: center;
+    margin-top: 20px;
+    margin-left: 30px;
+    color:white
+    
+}
+
+
+
+
+.div4{
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+}
+.div4 .div5{
+     display: grid;
+    grid-template-columns: repeat(2,auto);
+}
+.div4 h1{
+    margin-left: 10px;
+}
+
+
+.div6{
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+}
+.div6 .div7 ul{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+}
+.div6 h1{
+    margin-left: 10px;
+}
+
+.div8{
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+}
+.div8 h1{
+    margin-left: 10px;
+}
+
+
+

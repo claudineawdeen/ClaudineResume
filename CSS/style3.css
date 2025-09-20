@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    text-transform: capitalize; 
+    font-family: system-ui;
+}
+.div1{
+    padding: 10px;
+    font-size: 15px;
+    background-color: rgb(88, 83, 83);
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize; 
+    margin-top: -33px;
+    display: flex;
+    justify-content: flex-start;
+ }
+.div1 a{
+    text-decoration: none;
+    color: white;
+}
+.div1 a:hover{
+    text-decoration: underline;
+    color: gray;
+}
+.div1 img {
+    margin-top: 25px;
+    margin-right: 10px;
+}
+.div1 p{
+    align-self: center;
+    margin-top: 35px;;
+}
+
+.div1 .div4{
+    display: flex;
+    justify-self: flex-end;
+    margin-left: 600px;
+}
+.div4 div{
+    align-self: center;
+    margin-top: 20px;
+    margin-left: 30px;
+    color:white
+    
+}
+
+.div2{
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize; 
+    background-color: bisque;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 400px 800px 500px;
+    justify-content: center;
+ }
+.div2 div{
+    margin: 12px;
+}
+.div2 .one{
+    background-image: url(../p2.jpg);
+    background-repeat: no-repeat;
+    background-size: 500px 400px;
+}
+.div2 .two{
+    background-image: url(../b1.png);
+    background-repeat: no-repeat;
+    background-size: 600px 450px;
+}
+.div2 .three{
+    background-image: url(../b4.png);
+    background-repeat: no-repeat;
+    background-size: 800px 700px;
+}
+.div2 .four{
+    background-image: url(../b6.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px 400px;
+}
+.div2 .five{
+    background-image: url(../b8.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px 400px;
+}
+.div2 .div3{
+    justify-self: center;
+    align-items: center;
+    align-content: center;
+    color: gray;
+}
